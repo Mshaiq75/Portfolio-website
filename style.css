@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: #1a1a1a;
+    color: #efefef;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #efefef;
+}
+.btn-outline-success {
+    color: #efefef;
+    border-color: #efefef;
+}
+.btn-outline-success:hover {
+    background-color: #c21995;
+    border-color: #c21995;
+}
+.searchinput:focus {
+    border-color: #c21995;
+    box-shadow: 0 0 0 0.3rem rgba(194, 25, 149, 0.25);
+}
+.container-fluid {
+    padding: 0;
+}
+.navbar-expand {
+    background-color: #c21995;
+    width: 100%;
+}
+.menu {
+    color: #efefef !important;
+    position: relative;
+    text-decoration: none;
+}
+.menu::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #efefef;
+    transition: 0.3s;
+}
+.menu:hover::after {
+    width: 100%;
+}
+main {
+    background-image: url(./images/CSS\ Wave\ Animation\ with\ a\ _png\ copy.jpg);
+}
+.heading1 >h1 {
+    font-size: 60px;
+}
+.heading1 >p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#aboutMe >div, #skills >div, #contact>div {
+    margin: 250px auto;
+}
+.pinkheading {
+    color: #c21995;
+}
+.my-avatar {
+    width: 100%;
+    box-shadow: 0 0 #c21995;
+    
+}
+.image-wrapper {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+}
+.image-wrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, #1a1a1a, transparent);
+}
+.socialnav {
+    background: #1a1a1a !important;
+}
+.socialnav > div >ul >li >a {
+    color: #c21995 !important;
+    transition: all 0.3s ease;
+}
+.socialnav > div >ul >li >a:hover {
+    background-color: #c21995;
+    border-radius: 10px;
+    color: #efefef !important;
+}
+#skillslevel {
+    margin: 10px auto;
+}
+.progress {
+    height: 12px;
+    overflow: visible;
+}
+.progress-bar {
+    background-color: #c21995;
+    box-shadow: 0 0 12px #c21995;
+}
+.w-85 {
+    width:0;
+    animation: w-85 5s forwards;
+}
+.w-80 {
+    width:0;
+    animation: w-80 5s forwards;
+}
+.w-70 {
+    width:0;
+    animation: w-70 5s forwards;
+}
+.w-65 {
+    width:0;
+    animation: w-65 5s forwards;
+}
+.w-55 {
+    width:0;
+    animation: w-55 5s forwards;
+}
+.w-45 {
+    width:0;
+    animation: w-45 5s forwards;
+}
+@keyframes w-85{
+    from{
+        width:0;
+    }
+
+    to{
+        width:85%;
+    }
+}
+@keyframes w-80{
+    from{
+        width:0;
+    }
+
+    to{
+        width:80%;
+    }
+}
+@keyframes w-70{
+    from{
+        width:0;
+    }
+
+    to{
+        width:70%;
+    }
+}
+@keyframes w-65{
+    from{
+        width:0;
+    }
+
+    to{
+        width:65%;
+    }
+}
+@keyframes w-55{
+    from{
+        width:0;
+    }
+
+    to{
+        width:55%;
+    }
+}
+@keyframes w-45{
+    from{
+        width:0;
+    }
+
+    to{
+        width:45%;
+    }
+}
+#portfolio >div {
+    margin: 400px auto;
+}
+.card {
+    width: 100%;
+    height: 500px;
+    margin: 30px;
+    border:3px solid #c21995;
+    background-color: #c21995;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 0 0px #c21995;
+    transition: all 0.2s ease-in;
+}
+.card:hover {
+    box-shadow: 0 0 20px #c21995;
+    transform: scale(1.05);
+}
+.btn-primary {
+    background-color: #efefef;
+    border: #efefef;
+    color: #c21995;
+    transition: all 0.2s ease-in;
+}
+.btn-primary:hover {
+    background-color: #1a1a1a;
+    border: #1a1a1a;
+}
+#portfolio >div >div >div >h1 {
+    font-size: 60px;
+    padding: 70px 10px;
+    transform: translateY(15px);
+    animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate{
+    0% {transform: translateY(15px);}
+    50% {transform: translateY(-15px);}
+    100% {transform: translateY(15px);}
+}
+.contact-input {
+    border-radius: 15px !important;
+    height: 70px !important;
+}
+.form-control:focus {
+    border-color: #c21995;
+    box-shadow: 0 0 0 0.4rem rgba(194, 25, 149, 0.25);
+}
+label {
+    color: #c21995;
+    padding: 20px !important;
+}
+textarea {
+    height: 150px !important;
+    resize: none;
+    border-radius: 20px !important;
+}
+#contact >div >div >.btn {
+    background-color: #c21995;
+    color: #efefef;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+footer {
+    background-color: #c21995;
+}
